@@ -1,0 +1,56 @@
+.container {
+    padding-top: 25px;
+    background-color: #ffffff;
+    width: 450px;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+.userBox {
+    margin: 0 auto;
+}
+.userPhoto {
+    width: 200px;
+    margin: 0 auto;
+    background-color: #393939;
+    border-radius: 50%;
+    box-shadow: 0 4px 4px #393939;
+}
+.textName {
+    margin-top: 20px;
+    color: black;
+    font-size: 34px;
+    font-weight: 700;
+}
+.textTag,
+.textLocation {
+    color: grey;
+    font-size: 26px;
+}
+.socList {
+    display: flex;
+    background-color: #9c9c9c;
+    border-top: 2px solid #6a6a6a;
+    
+}
+.socItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.socItem:not(:last-child) {
+    border-right: 2px solid #6a6a6a;
+}
+.activity{
+color: #000;
+    font-size: 24px;
+}
+.quantity{
+color: #000;
+    font-size: 24px;
+    font-weight: 700
+}
