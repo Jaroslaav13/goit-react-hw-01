@@ -1,0 +1,27 @@
+.friendBox{
+    background-color: #fff;
+        width: 96px;
+        padding: 16px 8px;
+        border: 2px solid #000;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.friendName{
+    color: #000;
+        margin-top: 8px;
+        font-size: 24px;
+        text-align: center;
+}
+.friendAvatar{
+    margin: 0 auto;
+}
+.status{
+font-size: 16px;
+    color: #000;
+}
+.online{
+color: green;
+}
+.offline{
+color: red;
+}
